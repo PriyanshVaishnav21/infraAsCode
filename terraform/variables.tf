@@ -1,3 +1,5 @@
+# Variables for the VPC
+
 variable "region" {
   description = "AWS region"
   type = string
