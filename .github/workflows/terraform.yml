@@ -1,11 +1,11 @@
 name: InfraAsCode-IAC
 
 on:
-    # push:
-      #branches: 
-       # - master
-      #aths: 
-      #  - terraform/**
+     push:
+      branches: 
+        - master
+      paths: 
+        - terraform/**
     pull_request:
       branches: 
         - master
